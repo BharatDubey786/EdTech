@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Your Free Trial</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+       * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.trial-form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #333;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+button {
+    padding: 12px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Book Your Free Trial</h1>
+        <p>Start your learning journey with us! Fill out the form below to book your free trial session only 2 days.</p>
+        
+        <form action="/submit-form" method="POST" class="trial-form">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="Phone">Phone No.:</label>
+            <input type="Phone" id="Phone" name="Phone" required>
+              
+            <label for="Class">Class:</label>
+            <input type="Class" id="Class" name="Class" required>
+             
+            <label for="Subject">Subject:</label>
+            <input type="Subject" id="Subject" name="Subject" required>
+            
+            <label for="date">Preferred Trial Date:</label>
+            <input type="date" id="date" name="date" required>
+            
+            <label for="time">Preferred Time:</label>
+            <input type="time" id="time" name="time" required>
+            
+            <button type="submit">Book Free Trial</button>
+        </form>
+    </div>
+</body>
+</html>
+Select your city
+        <select name="city">
+            <option value="Indore">Indore</option>
+            <option value="Dolariya">Dolariya</option>
+            <option value="Ashoknagar">Ashoknagar</option>
+            <option value="Choli">Choli</option>
+            <option value="Bhopal">Bhopal</option>
+        </select>

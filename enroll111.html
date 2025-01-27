@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enroll in Course</title>
+    <link rel="stylesheet" href="enroll111.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Enroll course</h1>
+        <p>Fill out the form below to enroll in the course and start learning!</p>
+    </header>
+
+    <!-- Enrollment Form -->
+    <section class="enrollment-form">
+        <h2>Enrollment Form</h2>
+        <form id="enrollForm">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your full name">
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email">
+
+            <label for="course">Select Course:</label>
+            <select id="course" name="course" required>
+                <option value="Web Development 101">Web Development 101</option>
+                <option value="Python">Python</option>
+                <option value="C++">C++</option>
+            </select>
+
+            <button type="submit">submit</button>
+        </form>
+
+        <!-- Enrollment Message -->
+        <p id="message" class="hidden">Thank you for enrolling! Check your email for further instructions.</p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 EdTech Academy</p>
+    </footer>
+
+    <script src="enroll111.js"></script>
+</body>
+</html>

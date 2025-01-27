@@ -1,0 +1,93 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Enrollment Form */
+.enrollment-form {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 60%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.enrollment-form h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.enrollment-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1.1em;
+}
+
+.enrollment-form input,
+.enrollment-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.enrollment-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+.enrollment-form button:hover {
+    background-color: #45a049;
+}
+
+/* Message after enrollment */
+#message {
+    font-size: 1.2em;
+    color: #28a745;
+    text-align: center;
+    display: none; /* Hidden by default */
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}

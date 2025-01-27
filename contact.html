@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #4b4bd3;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: rgb(233, 229, 238);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .contact-item {
+            width: 40%;
+            margin-bottom: 25px;
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 6px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .contact-item h2 {
+            margin-top: 0;
+            color: #4CAF50;
+        }
+        .contact-item p {
+            font-size: 16px;
+            color: #555;
+        }
+        .social-links a {
+            display: inline-block;
+            margin: 10px 15px;
+            font-size: 24px;
+            color: #333;
+            text-decoration: none;
+        }
+        .social-links a:hover {
+            color: #4CAF50;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Contact Us</h1>
+        
+        <div class="contact-info">
+            <!-- Phone Number Section -->
+            <div class="contact-item">
+                <h2>Phone Number</h2>
+                <p>For any inquiries, feel free to call us at:</p>
+                <p><strong>+91 7000566645</strong></p>
+            </div>
+            
+            <!-- Email Address Section -->
+            <div class="contact-item">
+                <h2>Email Address</Address></h2>
+                <p>If you prefer email, you can reach us at:</p>
+                <p><strong>jerrysharma786@gmail.com</strong></p>
+            </div>
+        </div>
+        
+        <div class="contact-info">
+            <!-- Office Address Section -->
+            <div class="contact-item">
+                <h2>Our Office</h2>
+                <p>We'd love to meet you in person. Visit us at:</p>
+                <p><strong>19 EdTech Avenue, Suite 786</strong></p>
+                <p><strong>Dolariya, IND 461116</strong></p>
+            </div>
+            
+            <!-- Social Media Links -->
+            <div class="contact-item">
+                <h2>Follow Us</h2>
+                <div class="social-links">
+                    <a href="https://facebook.com" target="_blank">Facebook</a>
+                    <a href="https://twitter.com" target="_blank">Twitter</a>
+                    <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+                    <a href="https://instagram.com" target="_blank">Instagram</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>© 2024 Education Technology (EdTech) | All rights reserved</p>
+        </div>
+    </div>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #767b7d;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .form-container {
+            background-color: rgb(178, 151, 163);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(53, 49, 49, 0.1);
+            width: 400px;
+            box-sizing: border-box;
+
+        }
+        .form-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .form-container input, .form-container textarea {
+            width: 100%; 
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #0a0a0a;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .form-container textarea {
+            resize: vertical;
+            height: 140px;
+        }
+        .form-container button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: rgb(229, 13, 13);
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .form-container button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="form-container">
+        <h2>Contact Us</h2>
+        <form action="your-server-endpoint-here" method="POST">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+
+</body>
+</html>
